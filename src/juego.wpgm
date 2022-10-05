@@ -1,8 +1,10 @@
 import wollok.game.*
 import pepita.*
+import visuales.*
 
 program juego {
-	game.title("Juego Base")
-	game.addVisual(pepita)
-	game.start()
+	plantilla.iniciar()
+	fogata.iniciar()
+	pregP.mostrarPregunta()
+    game.start()
 }
