@@ -13,7 +13,7 @@
 
 ## Reglas de Juego / Instrucciones
 
-El participante debera responder preguntas de diversas categorias. Cada pregunta tendra un valor economico, el mismo se ira incrementando hasta llegar a la pregunta final, por el millon de pesos. Tambien se incrementaran La cantidad de opciones a medida que se incrementen las dificultades de las preguntas.
+El participante debera responder preguntas de diversas categorias. Si el participante responde al menos 12 de las 15 preguntas bien se lleva el millon de pesos, caso contrario el conductor del programa morira. Tambien se incrementaran la cantidad de opciones a medida que se incrementen las dificultades de las preguntas. 
 
 ## Otros
 
