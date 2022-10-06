@@ -5,6 +5,13 @@ import visuales.*
 program juego {
 	plantilla.iniciar()
 	fogata.iniciar()
-	pregP.mostrarPregunta()
+	logo.iniciar()
+	marley.iniciar()
+	
+	keyboard.space().onPressDo({pregP.mostrarPregunta()})
+	keyboard.num1().onPressDo({pregP.responder("a")})
+	keyboard.num2().onPressDo({pregP.responder("b")})
+	keyboard.enter().onPressDo({game.removeVisual(pregP)})	
+
     game.start()
 }

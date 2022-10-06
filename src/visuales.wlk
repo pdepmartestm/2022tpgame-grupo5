@@ -17,3 +17,11 @@ object fogata {
 	game.addVisual(self)
 	}
 }
+
+object logo {
+	const property image = "logo.png"
+	const property position = game.at(0,9)
+	method iniciar(){
+	game.addVisual(self)
+	}
+}
