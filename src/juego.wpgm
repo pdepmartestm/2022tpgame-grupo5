@@ -8,10 +8,10 @@ program juego {
 	logo.iniciar()
 	marley.iniciar()
 	
-	keyboard.space().onPressDo({pregP.mostrarPregunta()})
-	keyboard.num1().onPressDo({pregP.responder("a")})
-	keyboard.num2().onPressDo({pregP.responder("b")})
-	keyboard.enter().onPressDo({game.removeVisual(pregP)})	
+	keyboard.space().onPressDo({partida.mostrarPregunta()})
+	keyboard.num1().onPressDo({partida.responder("a")})
+	keyboard.num2().onPressDo({partida.responder("b")})
+	keyboard.enter().onPressDo({partida.siguientePregunta()})	
 
     game.start()
 }
