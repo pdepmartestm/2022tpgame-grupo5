@@ -9,9 +9,14 @@ program juego {
 	marley.iniciar()
 	
 	keyboard.space().onPressDo({partida.mostrarPregunta()})
-	keyboard.num1().onPressDo({partida.responder("a")})
-	keyboard.num2().onPressDo({partida.responder("b")})
+	keyboard.a().onPressDo({partida.responder("a")})
+	keyboard.b().onPressDo({partida.responder("b")})
+	keyboard.c().onPressDo({partida.responder("c")})
+	keyboard.d().onPressDo({partida.responder("d")})
 	keyboard.enter().onPressDo({partida.siguientePregunta()})	
+	keyboard.num1().onPressDo({partida.usarPoder(poder1)})
+	keyboard.num2().onPressDo({partida.usarPoder(poder2)})
+	keyboard.num3().onPressDo({partida.usarPoder(poder3)})
 
     game.start()
 }
