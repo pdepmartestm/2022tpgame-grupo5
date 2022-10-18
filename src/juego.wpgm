@@ -4,11 +4,12 @@ import visuales.*
 
 program juego {
 	plantilla.iniciar()
-	fogata.iniciar()
-	logo.iniciar()
+	//fogata.iniciar()
+	//logo.iniciar()
 	marley.iniciar()
+	marley.introduccion()
 	
-	keyboard.space().onPressDo({partida.mostrarPregunta()})
+	keyboard.space().onPressDo({partida.iniciar()})
 	keyboard.a().onPressDo({partida.responder("a")})
 	keyboard.b().onPressDo({partida.responder("b")})
 	keyboard.c().onPressDo({partida.responder("c")})

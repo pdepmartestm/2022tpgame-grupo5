@@ -1,7 +1,7 @@
 import wollok.game.*
 
 object plantilla {
-	const property image = "image.jpg"
+	var property image = "millonario.jpg"
 	const property position = game.origin()
 	method iniciar(){
 	game.width(20)
@@ -12,7 +12,7 @@ object plantilla {
 
 object fogata {
 	const property image = "fogata.png"
-	const property position = game.at(0,0)
+	const property position = game.at(0,1)
 	method iniciar(){
 	game.addVisual(self)
 	}
