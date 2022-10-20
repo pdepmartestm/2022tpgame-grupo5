@@ -1,15 +1,13 @@
 import wollok.game.*
-import pepita.*
+import millonario.*
 import visuales.*
+import preguntas.*
 
 program juego {
-	plantilla.iniciar()
-	//fogata.iniciar()
-	//logo.iniciar()
-	marley.iniciar()
-	marley.introduccion()
 	
-	keyboard.space().onPressDo({partida.iniciar()})
+	partida.inicio() 
+	
+	keyboard.space().onPressDo({partida.comenzar()})
 	keyboard.a().onPressDo({partida.responder("a")})
 	keyboard.b().onPressDo({partida.responder("b")})
 	keyboard.c().onPressDo({partida.responder("c")})

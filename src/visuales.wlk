@@ -10,18 +10,18 @@ object plantilla {
 	}
 }
 
-object fogata {
-	const property image = "fogata.png"
-	const property position = game.at(0,1)
-	method iniciar(){
+object disponibilidad {
+	method text() = "Poderes disponibles: "
+	
+	method textColor() = "98FB98"
+	
+	method position() = game.at(7,19)
+	
+	method mostrarse() {
 	game.addVisual(self)
 	}
-}
-
-object logo {
-	const property image = "logo.png"
-	const property position = game.at(0,9)
-	method iniciar(){
-	game.addVisual(self)
+	
+	method borrarse() {
+	game.removeVisual(self)
 	}
 }
