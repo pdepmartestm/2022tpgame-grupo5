@@ -72,7 +72,8 @@ object partida {
 	method usarPoder(poder) {
 		self.preguntaActual().borrarse()
 		poder.efecto()
-		self.mostrarPregunta()
+		preguntaActual.mostrarse()
+		preguntaActual.respuestas().forEach({ x => x.mostrarse()})
 	}
 
 	method reiniciar() {
