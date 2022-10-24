@@ -17,11 +17,11 @@ const opC = new Opcion(letra = "c", position = game.at(7, 5))
 
 const opD = new Opcion(letra = "d", position = game.at(14, 5))
 
-const nivel1 = new Nivel(preguntas = [ preg1, preg2, preg3, preg4 ], maximo = 4)
+const nivel1 = new Nivel(preguntas = [ preg1, preg2, preg3, preg4, preg12,preg13,preg14 ], maximo = 4)
 
-const nivel2 = new Nivel(preguntas = [ preg5, preg6, preg7 ], maximo = 7)
+const nivel2 = new Nivel(preguntas = [ preg5, preg6, preg7,preg15,preg16,preg17 ], maximo = 7)
 
-const nivel3 = new Nivel(preguntas = [ preg8, preg9, preg10, preg11 ], maximo = 10)
+const nivel3 = new Nivel(preguntas = [ preg8, preg9, preg10, preg11,preg18,preg19,preg20 ], maximo = 10)
 
 const niveles = [nivel1,nivel2,nivel3]
 
@@ -53,6 +53,35 @@ const r41 = new Respuesta(opcion = opA, text = "112")
 
 const r42 = new Respuesta(opcion = opB, text = "118")
 
+const preg12 = new Pregunta(respuestaCorrecta = [ r121 ], respuestasIncorrectas = [ r122,r123 ], text = "¿Cuál de los siguientes sería atraído por un imán?")
+
+const r121 = new Respuesta(opcion = opA, text = "Metal")
+
+const r122 = new Respuesta(opcion = opB, text = "Plastico")
+
+const r123 = new Respuesta(opcion = opC, text = "Madera")
+
+const preg13 = new Pregunta(respuestaCorrecta = [ r134 ], respuestasIncorrectas = [ r132,r133,r131 ], text = "¿Que nombres no aparece en el título de una obra de Shakespeare?")
+
+const r131 = new Respuesta(opcion = opA, text = "Hamlet")
+
+const r132 = new Respuesta(opcion = opB, text = "Romeo")
+
+const r133 = new Respuesta(opcion = opC, text = "Macbeth")
+
+const r134 = new Respuesta(opcion = opD, text = "Darren")
+
+
+const preg14 = new Pregunta(respuestaCorrecta = [ r132 ], respuestasIncorrectas = [ r134,r133,r131 ], text = "¿Qué nombre tiene tradicionalmente la fiesta que se hace a una mujer que espera un bebé?")
+
+const r141 = new Respuesta(opcion = opA, text = "Baby drizzle")
+
+const r142 = new Respuesta(opcion = opB, text = "Baby shower")
+
+const r143 = new Respuesta(opcion = opC, text = "Baby downpour")
+
+const r144 = new Respuesta(opcion = opD, text = "Baby deluge")
+
 // Nivel 2
 const preg5 = new Pregunta(respuestaCorrecta = [ r53 ], respuestasIncorrectas = [ r51, r52 ], text = "¿De qué película es el príncipe azul?")
 
@@ -77,6 +106,34 @@ const r71 = new Respuesta(opcion = opA, text = "Da Vinci")
 const r72 = new Respuesta(opcion = opB, text = "Picasso")
 
 const r73 = new Respuesta(opcion = opC, text = "Dali")
+
+const preg15 = new Pregunta(respuestaCorrecta = [ r154 ], respuestasIncorrectas = [ r152,r153,r151 ], text = "¿Cuáles de estas aplicaciones ofrecen más o menos el mismo tipo de servicio?")
+
+const r151 = new Respuesta(opcion = opA, text = "Snapchat y Grubhub")
+
+const r152 = new Respuesta(opcion = opB, text = "Whatsapp y SHAREit")
+
+const r153 = new Respuesta(opcion = opC, text = "TikTok y Spotify")
+
+const r154 = new Respuesta(opcion = opD, text = "Lyft y Uber")
+
+const preg16 = new Pregunta(respuestaCorrecta = [ r163 ], respuestasIncorrectas = [ r162,r164,r161 ], text = "Por definición, ¿qué tiene una bicicleta de 10 velocidades?")
+
+const r161 = new Respuesta(opcion = opA, text = "10 Ruedas")
+
+const r162 = new Respuesta(opcion = opB, text = "10 Rayos")
+
+const r163 = new Respuesta(opcion = opC, text = "10 Piñones")
+
+const r164 = new Respuesta(opcion = opD, text = "10 Vidas")
+
+const preg17 = new Pregunta(respuestaCorrecta = [ r173 ], respuestasIncorrectas = [ r172,r171 ], text = "¿Qué parte importante de la topografía de Estados Unidos comprende aproximadamente un 20% del agua dulce de la Tierra?")
+
+const r171 = new Respuesta(opcion = opA, text = "El valle de la Muerte")
+
+const r172 = new Respuesta(opcion = opB, text = "El Gran Cañón")
+
+const r173 = new Respuesta(opcion = opC, text = "Los grandes lagos")
 
 // Nivel 3
 const preg8 = new Pregunta(respuestaCorrecta = [ r84 ], respuestasIncorrectas = [ r81, r82, r83 ], text = "¿Qué planeta es el que se encuentra más cerca del Sol?")
@@ -119,9 +176,29 @@ const r113 = new Respuesta(opcion = opC, text = "17")
 
 const r114 = new Respuesta(opcion = opD, text = "18")
 
+const preg18 = new Pregunta(respuestaCorrecta = [ r183 ], respuestasIncorrectas = [ r182,r181 ], text = "¿Qué planta es el símbolo nacional de Irlanda?")
 
+const r181 = new Respuesta(opcion = opA, text = "Rosa")
 
+const r182 = new Respuesta(opcion = opB, text = "Cardo")
 
+const r183 = new Respuesta(opcion = opC, text = "Trebol")
+
+const preg19 = new Pregunta(respuestaCorrecta = [ r192 ], respuestasIncorrectas = [ r193,r191 ], text = "¿Cuál de estos es un instrumento musical?")
+
+const r191 = new Respuesta(opcion = opA, text = "Mandrágora")
+
+const r192 = new Respuesta(opcion = opB, text = "Mandolina")
+
+const r193 = new Respuesta(opcion = opC, text = "Mandalay")
+
+const preg20 = new Pregunta(respuestaCorrecta = [ r201 ], respuestasIncorrectas = [ r202,r203 ], text = "¿Cómo se llamaba la banda cuyo líder era Jim Morrison?")
+
+const r201 = new Respuesta(opcion = opA, text = "The Doors")
+
+const r202 = new Respuesta(opcion = opB, text = "The Windows")
+
+const r203 = new Respuesta(opcion = opC, text = "The Floors")
 
 
 

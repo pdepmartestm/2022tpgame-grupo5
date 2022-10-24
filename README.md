@@ -5,7 +5,7 @@
 ## Equipo de desarrollo
 
 - Tomas Martinez
-- Persona 2 
+- Jonatan Raijman
 - Persona 3
 - etc.
 
