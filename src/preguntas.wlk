@@ -72,7 +72,7 @@ const r133 = new Respuesta(opcion = opC, text = "Macbeth")
 const r134 = new Respuesta(opcion = opD, text = "Darren")
 
 
-const preg14 = new Pregunta(respuestaCorrecta = [ r132 ], respuestasIncorrectas = [ r134,r133,r131 ], text = "¿Qué nombre tiene tradicionalmente la fiesta que se hace a una mujer que espera un bebé?")
+const preg14 = new Pregunta(respuestaCorrecta = [ r142 ], respuestasIncorrectas = [ r144,r143,r141 ], text = "¿Qué nombre tiene tradicionalmente la fiesta que se hace a una mujer que espera un bebé?")
 
 const r141 = new Respuesta(opcion = opA, text = "Baby drizzle")
 

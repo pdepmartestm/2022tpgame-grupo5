@@ -64,6 +64,7 @@ object partida {
 			resultadoFinal = victoria
 		} else if (errores == erroresPermitidos) {
 			resultadoFinal = derrota
+			marley.cambiarFoto("MarleyFuego.jpg")
 		}
 		game.addVisual(resultadoFinal)
 		terminado = true
@@ -82,6 +83,7 @@ object partida {
 		disponibilidad.borrarse()
 		poderes.forEach({x => x.borrarse()})
 		plantilla.image("millonario.jpg")
+		marley.cambiarFoto("Marley.png")
 		marley.position(game.at(9, 5))
 		game.removeVisual(resultadoFinal)
 		marley.introduccion()
@@ -259,7 +261,7 @@ class Opcion {
 object marley {
 
 	const property textos = [ "Un error lo tiene cualquiera", "Me estoy empezando a asustar", "Me quemo!" ]
-	const property image = "Marley.png"
+	var property image = "Marley.png"
 	var property position = game.at(9, 5)
 
 	method iniciar() {
@@ -276,6 +278,11 @@ object marley {
 		game.schedule(4000, { game.say(self, "Responderas preguntas y ganaras plata")})
 		game.schedule(7000, { game.say(self, "Pero si pierdes me quemo")})
 		game.schedule(10000, { game.say(self, "Presiona espacio para empezar")})
+	}
+	method cambiarFoto(foto){
+		game.removeVisual(self)
+		image= foto
+		game.addVisual(self)
 	}
 
 }
