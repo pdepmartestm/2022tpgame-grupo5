@@ -71,10 +71,12 @@ object partida {
 	}
 
 	method usarPoder(poder) {
+		if(poder.sinUsar()){
 		self.preguntaActual().borrarse()
 		poder.efecto()
 		preguntaActual.mostrarse()
 		preguntaActual.respuestas().forEach({ x => x.mostrarse()})
+		}
 	}
 
 	method reiniciar() {
