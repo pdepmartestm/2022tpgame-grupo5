@@ -6,7 +6,7 @@
 
 - Tomas Martinez
 - Jonatan Raijman
-- Persona 3
+- Augusto Adrian Gil Tolentino
 - etc.
 
 ## Reglas de Juego / Instrucciones
