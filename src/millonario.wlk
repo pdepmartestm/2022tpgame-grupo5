@@ -84,6 +84,7 @@ object partida {
 		preguntasUsadas.clear()
 		disponibilidad.borrarse()
 		poderes.forEach({x => x.borrarse()})
+		poderes.forEach({x => x.sinUsar(true)})
 		plantilla.image("millonario.jpg")
 		marley.cambiarFoto("Marley.png")
 		marley.position(game.at(9, 5))
