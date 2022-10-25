@@ -29,7 +29,7 @@ Este poder se activara presionando la tecla 2, con el mismo se cambiara la pregu
 #### Poder 3
 Este poder se activara presionando la tecla 3, con el mismo se respondera bien una de las preguntas, es una gran ventaja pero hay que saber cuando usarla. 
 
-## Otros
+## Aclaraciones
 
 - K2002
 - Grupo 5
