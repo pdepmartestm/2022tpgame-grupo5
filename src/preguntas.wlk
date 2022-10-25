@@ -17,11 +17,11 @@ const opC = new Opcion(letra = "c", position = game.at(7, 5))
 
 const opD = new Opcion(letra = "d", position = game.at(14, 5))
 
-const nivel1 = new Nivel(preguntas = [ preg1, preg2, preg3, preg4, preg12,preg13,preg14 ], maximo = 4)
+const nivel1 = new Nivel(preguntas = [ preg1, preg2, preg3, preg4, preg12,preg13,preg14,preg21,preg22,preg23 ], maximo = 4)
 
-const nivel2 = new Nivel(preguntas = [ preg5, preg6, preg7,preg15,preg16,preg17 ], maximo = 7)
+const nivel2 = new Nivel(preguntas = [ preg5, preg6, preg7,preg15,preg16,preg17,preg24,preg25 ], maximo = 7)
 
-const nivel3 = new Nivel(preguntas = [ preg8, preg9, preg10, preg11,preg18,preg19,preg20 ], maximo = 10)
+const nivel3 = new Nivel(preguntas = [ preg8, preg9, preg10, preg11,preg18,preg19,preg20,preg26,preg27 ], maximo = 10)
 
 const niveles = [nivel1,nivel2,nivel3]
 
@@ -72,6 +72,24 @@ const r141 = new Respuesta(opcion = opA, text = "Baby drizzle")
 
 const r142 = new Respuesta(opcion = opB, text = "Baby shower")
 
+const preg21 = new Pregunta(respuestaCorrecta = [ r212 ], respuestasIncorrectas = [ r211 ], text = "¿A qué mes pertenece el signo de Sagitario?")
+
+const r211 = new Respuesta(opcion = opA, text = "Abril")
+
+const r212 = new Respuesta(opcion = opB, text = "Diciembre")
+
+const preg22 = new Pregunta(respuestaCorrecta = [ r221], respuestasIncorrectas = [ r222 ], text = "¿En qué año nació Salvador Dalí?")
+
+const r221 = new Respuesta(opcion = opA, text = "1904")
+
+const r222 = new Respuesta(opcion = opB, text = "1906")
+
+const preg23 = new Pregunta(respuestaCorrecta = [ r232], respuestasIncorrectas = [ r231 ], text = "¿Cuál es el país más grande del mundo?")
+
+const r231 = new Respuesta(opcion = opA, text = "China")
+
+const r232 = new Respuesta(opcion = opB, text = "Rusia")
+
 // Nivel 2
 const preg5 = new Pregunta(respuestaCorrecta = [ r53 ], respuestasIncorrectas = [ r51, r52 ], text = "¿De qué película es el príncipe azul?")
 
@@ -120,6 +138,22 @@ const r171 = new Respuesta(opcion = opA, text = "El valle de la Muerte")
 const r172 = new Respuesta(opcion = opB, text = "El Gran Cañón")
 
 const r173 = new Respuesta(opcion = opC, text = "Los grandes lagos")
+
+const preg24 = new Pregunta(respuestaCorrecta = [ r243 ], respuestasIncorrectas = [ r242,r241 ], text = "Nombra un país europeo sin salida al mar.")
+
+const r241 = new Respuesta(opcion = opA, text = "España")
+
+const r242 = new Respuesta(opcion = opB, text = "Italia")
+
+const r243 = new Respuesta(opcion = opC, text = "Suiza")
+
+const preg25 = new Pregunta(respuestaCorrecta = [ r253 ], respuestasIncorrectas = [ r252,r251 ], text = "¿Cuál es el río más largo del planeta?")
+
+const r251 = new Respuesta(opcion = opA, text = "Nilo")
+
+const r252 = new Respuesta(opcion = opB, text = "Rio de la plata")
+
+const r253 = new Respuesta(opcion = opC, text = "Amazonas")
 
 // Nivel 3
 const preg8 = new Pregunta(respuestaCorrecta = [ r84 ], respuestasIncorrectas = [ r81, r82, r83 ], text = "¿Qué planeta es el que se encuentra más cerca del Sol?")
@@ -192,5 +226,24 @@ const r203 = new Respuesta(opcion = opC, text = "The Floors")
 
 const r204 = new Respuesta(opcion = opD, text = "The Doors")
 
+const preg26 = new Pregunta(respuestaCorrecta = [ r262 ], respuestasIncorrectas = [ r261,r263,r264 ], text = "¿En qué año murió Michael Jackson?")
+
+const r261 = new Respuesta(opcion = opA, text = "2008")
+
+const r262 = new Respuesta(opcion = opB, text = "2009")
+
+const r263 = new Respuesta(opcion = opC, text = "2010")
+
+const r264 = new Respuesta(opcion = opD, text = "2011")
+
+const preg27 = new Pregunta(respuestaCorrecta = [ r274 ], respuestasIncorrectas = [ r271,r273,r272 ], text = "¿Quién es la primera mujer latina en ser nominada a los Grammy?")
+
+const r271 = new Respuesta(opcion = opA, text = "Emilia")
+
+const r272 = new Respuesta(opcion = opB, text = "Nicki Nicole")
+
+const r273 = new Respuesta(opcion = opC, text = "Maria Becerra")
+
+const r274 = new Respuesta(opcion = opD, text = "Rosalia")
 
 
