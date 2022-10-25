@@ -7,7 +7,7 @@
 - Tomas Martinez
 - Jonatan Raijman
 - Augusto Adrian Gil Tolentino
-- etc.
+- Tobias Choclin
 
 ## Reglas de Juego / Instrucciones
 
